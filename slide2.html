@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Trends by Country</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="js/slide2.js" defer></script>
+</head>
+<body>
+    <div id="slide2">
+        <h1>Tourism Trends by Country</h1>
+        <p> This chart shows tourism trends over the years for different countries. Select the country to you want to see in the drop down menu in the bottom right</p>
+        <div class="chart-and-selector">
+            <svg id="lineChart" width="800" height="600"></svg>
+            <select id="countrySelector"></select>
+        </div>
+    </div>
+    <div class="navigation">
+        <button onclick="window.location.href='slide1.html'">Back</button>
+        <button onclick="window.location.href='slide3.html'">Next</button>
+    </div>
+</body>
+</html>
